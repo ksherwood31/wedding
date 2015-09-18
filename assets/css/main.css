@@ -1,10 +1,9 @@
+@import url(https://fonts.googleapis.com/css?family=Alex+Brush);
 @import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic,600");
 @import url("font-awesome.min.css");
 
 /*
-	Helios by Pixelarity
-	pixelarity.com @pixelarity
-	License: pixelarity.com/license
+	Helios
 */
 
 /* Reset */
@@ -1577,7 +1576,14 @@
 		font-weight: 300;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1, h2 {
+		font-weight: 400;
+		font-family: 'Alex Brush', 'Source Sans Pro', sans-serif;
+		color: #483949;
+		line-height: 1.25em;
+	}
+
+	h3, h4, h5, h6 {
 		font-weight: 400;
 		color: #483949;
 		line-height: 1.25em;
@@ -1750,7 +1756,7 @@
 		.image.featured {
 			display: block;
 			width: 100%;
-			margin: 0 0 4em 0;
+			margin: 0 0 0 0;
 		}
 
 		.image.left {
@@ -2335,6 +2341,13 @@
 		#banner header > p {
 			margin-bottom: 0;
 		}
+		
+	.watermark {
+		text-align: right;
+		font-size: 0.65em;
+		padding: 0 0 4em 0;
+		margin: 0;
+	}	
 
 /* Content */
 
